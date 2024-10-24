@@ -1,10 +1,10 @@
-
+/* 
 .scroll-container {
     display: flex;
     align-items: center;    
     height: 95vh;  
     white-space: nowrap;      
-}
+} */
 
 /* .centered-div {
     font-size: 40px;
@@ -23,8 +23,9 @@
 } */
 
 
+
 #text-container{
-    width:600vh;
+    width:700vh;
 }
 
 /* #text-curve{
@@ -46,6 +47,17 @@ html::-webkit-scrollbar {
     /* background: radial-gradient(white 10%, black 40%);*/
     border: 3px solid black;
   }
+
+
+
+
+.tooltip .tooltiptext {
+    top: -5px;
+    left: 105%;
+  }
+
+
+  
 @keyframes pulse {
     0% {
         opacity: 1;
